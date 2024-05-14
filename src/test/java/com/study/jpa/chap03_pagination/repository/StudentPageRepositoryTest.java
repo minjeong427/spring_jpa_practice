@@ -106,7 +106,7 @@ class StudentPageRepositoryTest {
         System.out.println("totalPages = " + totalPages);
         System.out.println("totalElements = " + totalElements);
         System.out.println("next = " + next);
-        System.out.println("prev = " + prev);
+         System.out.println("prev = " + prev);
         students.getContent().forEach(System.out::println);
         System.out.println("\n\n\n");
 
